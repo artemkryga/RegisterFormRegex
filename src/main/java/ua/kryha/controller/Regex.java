@@ -9,7 +9,7 @@ public interface Regex {
     Pattern REGEX_FOR_NICKNAME = Pattern.compile("");
     Pattern REGEX_FOR_COMMENT = Pattern.compile("");
     Pattern REGEX_FOR_HOME_PHONE_NUMBER = Pattern.compile("");
-    Pattern REGEX_FOR_SECOND_PHONE_NUMBER = Pattern.compile("");
+    Pattern REGEX_FOR_SECOND_PHONE_NUMBER = Pattern.compile("^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$");
     Pattern REGEX_FOR_EMAIL = Pattern.compile("");
     Pattern REGEX_FOR_SKYPE = Pattern.compile("");
     Pattern REGEX_FOR_INDEX = Pattern.compile("");

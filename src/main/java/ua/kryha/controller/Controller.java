@@ -21,9 +21,18 @@ public class Controller {
 
     public void start() {
         Scanner sc = new Scanner(System.in);
+
         form.setFirstName(inputStringWithScanner(sc , Regex.REGEX_FOR_FIRSTNAME));
-
-
+        form.setLastName(inputStringWithScanner(sc , Regex.REGEX_FOR_LASTNAME));
+        form.setPatronimic(inputStringWithScanner(sc , Regex.REGEX_FOR_PATRONIMIK));
+        form.setNickName(inputStringWithScanner(sc , Regex.REGEX_FOR_NICKNAME));
+        form.setComment(inputStringWithScanner(sc , Regex.REGEX_FOR_COMMENT));
+        form.setPhoneNumber(inputStringWithScanner(sc , Regex.REGEX_FOR_SECOND_PHONE_NUMBER));
+        form.setEmail(inputStringWithScanner(sc , Regex.REGEX_FOR_EMAIL));
+        form.setSkype(inputStringWithScanner(sc , Regex.REGEX_FOR_SKYPE));
+        form.setHomePhoneNumber(inputStringWithScanner(sc , Regex.REGEX_FOR_HOME_PHONE_NUMBER));
+        form.setDate(inputStringWithScanner(sc , Regex.REGEX_FOR_DATE));
+        form.setDateOfChange(inputStringWithScanner(sc , Regex.REGEX_FOR_DATE_OF_CHANGE));
 
 
 
